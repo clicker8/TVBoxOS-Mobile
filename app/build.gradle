@@ -2,13 +2,13 @@ apply plugin: 'com.android.application'
 apply plugin: 'org.jetbrains.kotlin.android'
 
 android {
-    compileSdkVersion 33
+    compileSdkVersion 24
 
     defaultConfig {
         applicationId 'com.github.tvbox.osc'
         minSdkVersion 24
-        targetSdkVersion 26
-        versionCode 1
+        targetSdkVersion 24
+        // versionCode 1
         versionName '2.0'
         multiDexEnabled true
         //设置room的Schema的位置
